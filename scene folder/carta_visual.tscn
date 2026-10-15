@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://d206kcheh1dla"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_brrfh"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+corner_detail = 15
+
+[node name="CartaVisual" type="Control" unique_id=852584565]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2282.0
+offset_top = 204.0
+offset_right = -3952.0
+offset_bottom = -526.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_group_ = true
+
+[node name="Panel" type="Panel" parent="." unique_id=557672201]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_brrfh")
+
+[node name="10 Corazón" type="Label" parent="Panel" unique_id=1178986542]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 125.0
+offset_right = 144.0
+offset_bottom = 148.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "10 Corazón"
